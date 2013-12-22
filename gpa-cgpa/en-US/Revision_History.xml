@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE appendix PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "gpa-cgpa.ent">
+%BOOK_ENTITIES;
+]>
+<appendix id="appe-gpa-cgpa-Revision_History">
+	<title>Revision History</title>
+	<simpara>
+		<revhistory>
+			<revision>
+				<revnumber>0-1</revnumber>
+				<date>Sat Nov 23 2013</date>
+				<author>
+					<firstname>i Rashadul</firstname>
+					<surname></surname>
+					<email>rustpaper@gmail.com</email>
+				</author>
+				<revdescription>
+					<simplelist>
+						<member>Initial creation of book by publican</member>
+					</simplelist>
+				</revdescription>
+			</revision>
+
+			<revision>
+                                <revnumber>0-0-1</revnumber>
+                                <date>Sat Nov 23 2013</date>
+                                <author>
+                                        <firstname>i</firstname>
+                                        <surname>Rashadul</surname>
+                                        <email>rustpaper@gmail.com</email>
+                                </author>
+                                <revdescription>
+                                        <simplelist>
+                                                <member>Revision of the legal notice and navigation</member>
+                                        </simplelist>
+                                </revdescription>
+                        </revision>
+
+		</revhistory>
+	</simpara>
+</appendix>
+

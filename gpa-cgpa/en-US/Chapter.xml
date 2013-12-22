@@ -1,0 +1,656 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "gpa-cgpa.ent">
+<!ENTITY LaTeX "LaTeX">
+<!ENTITY TeX   "TeX">
+<!ENTITY PTeX  "PassiveTeX">
+<!ENTITY xmltex "<application>xmltex</application">
+%BOOK_ENTITIES;
+]>
+<chapter id="chap-gpa-cgpa-What_is_GPA_and_CGPA">
+	<title>About GPA and CGPA DocBook</title>
+	<para>
+		The DocBook is about how to use the GPA and CGPA calculator. This is chapter one of the DocBook.
+	</para>
+	<section id="sect-gpa-cgpa-What_is_GPA_and_CGP-About_the_GPA_and_CGPA_DocBook">
+		<title>About the GPA and CGPA DocBook</title>
+		<para>
+		The User Guide is authored to help the end-user<footnote><para>An end user of a computer system or software is someone who uses it.</para></footnote> and the reader community to use the piece of the GPA-CGPA calculator. The user guide is simple to read with the help of the table of contents or even with the index in the guide. The preliminary research shows that one of thousand students are using the calculator to measure the GPA and CGPA.
+		</para>
+		<para>
+		The User Guide is being detailed with appropriate images. This includes the necessary layout, and the actual content. The first chapter is based on the brief of the GPA and CGPA literature. The readers will enjoy while they are going through the chapter. That chapter not only helps the user of the application to know about their WH but also use the content while they are talking about the program. The Second Chapter will help the user to familiar with the actual process to use the software<footnote><para>Computer software, or just software, is any set of machine-readable instructions that directs a computer’s processor to perform specific operations. The term is used to contrast with computer hardware, the physical objects (processor and related devices) that carry out the instructions. Computer hardware and software require each other and neither can be realistically used without the other.</para></footnote>. This chapter will help the user to know how to use the program. The last but the least chapter is the source of the author and the debug<footnote><para>Debugging is a methodical process of finding and reducing the number of bugs, or defects, in a computer program or a piece of electronic hardware, thus making it behave as expected. Debugging tends to be harder when various subsystems are tightly coupled, as changes in one may cause bugs to emerge in another.</para></footnote> information.
+			<indexterm>
+                                 <primary>Debugging</primary>
+                         </indexterm>
+			<indexterm>
+                                 <primary>End user</primary>
+                         </indexterm>
+			<indexterm>
+                                 <primary>User Guide</primary>
+                         </indexterm>
+
+		</para>
+		<para>
+User feedback<footnote><para>Feedback is a process in which information about the past or the present influences the same phenomenon in the present or future. As part of a chain of Cause and Effect<footnote><para>A cause is WHY something happens. An effect is WHAT happens.</para></footnote> that forms a circuit or loop, the event is said to "feed back" into itself.</para></footnote> will help the author of the program to update the program. Though the feedback is not an essential part but it always helps to the program to learn and fix the mistake. Simply, the chapter is a provision for future expansion and maintenance.
+		</para>
+		<para>
+Please enjoy the reading, and hopefully there will be a committed relationship when you choose to read the User Guide<footnote><para>A user guide or user’s guide, also commonly known as a manual, is a technical communication document intended to give assistance to people using a particular system. It is usually written by a technical writer, although user guides are written by programmers, product or project managers, or other technical staff, particularly in smaller companies</para></footnote>.
+
+			<indexterm>
+                                 <primary>Software</primary>
+                         </indexterm>
+			<indexterm>
+                                 <primary>Cause and Effect</primary>
+                         </indexterm>
+
+		</para>
+	</section>
+	
+	<section id="sect-gpa-cgpa-About_GPA_and_CGPA">
+		<title>About GPA and CGPA</title>
+		<para>
+		Grading in education is the process of applying standardized measurements of varying levels of achievement in a course.
+		</para>
+
+		<para>
+		Grades<footnote><para>http://en.wikipedia.org/wiki/Grade</para></footnote> can be assigned in letters (for example A, B, C, D, E or F), as a range (for example 1 to 6), as a percentage of a total number correct, as a number out of a possible total (for example out of 20 or 100), or as descriptors (excellent, great, satisfactory, needs improvement).
+		</para>
+
+		<para>
+In some countries, all grades from all current classes are averaged to create a grade point average (GPA) for the marking period. The GPA is calculated by taking the number of grade points a student earned in a given period of time divided by the total number of credits taken<footnote><para>Grade Point Average,(n), Retrieved November 25, 2013, http://dictionary.reference.com/browse/grade</para></footnote>.The GPA can be used by potential employers or educational institutions to assess and compare applicants. A Cumulative Grade Point Average is a calculation of the average of all student’s grades for all courses completed so far.
+		</para>
+
+		<para>
+Grades in courses are based on the instructor’s judgment<footnote><para>Judgment is the cognitive process of reaching a decision or drawing conclusions.</para></footnote> of a student’s achievement. Students who dispute a grade should follow grade mediation and adjudication procedures.
+			<indexterm>
+                                 <primary>Grade</primary>
+                         </indexterm>
+		</para>
+
+		<para>
+Semester/session grade-point average and cumulative grade-point average are calculated to represent numerically a student’s quality of performance. These averages are used to determine if a student qualifies for certain academic actions (e.g., Dean’s List, academic warning/drop, entrance to and changes in college/major, and graduation) and programs (e.g., student aid and study abroad).
+		</para>
+	</section>
+
+	 <section id="sect-gpa-cgpa-Etymology">
+                  <title>Etymology</title>
+                  <para>
+			The etymology<footnote><para> The origin and historical development of a linguistic form as shown by determining its basic elements, earliest known use, and changes in form and meaning, tracing its transmission from one language to another, identifying its cognates in other languages, and reconstructing its ancestral form where possible. http://www.thefreedictionary.com/etymology</para></footnote> of the Grade is: French grade ("a grade, degree"), from Latin gradus ("a step, pace, a step in a ladder or stair, a station, position, degree"), from gradi ("to walk, step"), from Proto-Indo-European * g<superscript>h</superscript> radd<superscript>h</superscript> -, g<superscript>h</superscript>redd<superscript>h</superscript> - ("to walk, go"). Cognate with Gothic ( griρs,"step, grade"), Bavarian Gritt ("step, stride"), Lithuanian grìdiju ("to go, wander").
+			<indexterm>
+                                 <primary>Etymology</primary>
+                         </indexterm>
+
+                 </para>
+	</section>
+
+	<section id="sect-gpa-cgpa-History_of_Grading">
+                <title>History of Grading</title>
+                <para>
+		Yale University historian George W. Pierson writes "According to tradition the first grades issued at Yale (and possibly the first in the country) were given out in the year 1785, when President Ezra Stiles, after examining 58 Seniors, recorded in his diary that there were ’Twenty Optimi, sixteen second Optimi, twelve Inferiores (Boni), ten Pejores <footnote><para> Pierson, George (1983). New Haven: Yale Office of Institutional Research A Yale Book of Numbers. p. 310.</para></footnote>'" Keith Hoskin argues that the concept of grading students’ work quantitatively was developed by a tutor named William Farish and first implemented by the University of Cambridge in 1792<footnote><para> Postman, Neil (1992). New York: Alfred A. Knopf. p. 13.</para></footnote>. Hoskin’s assertion has been questioned by Christopher Stray, who finds the evidence for Farish as the inventor of the numerical mark to be unpersuasive<footnote><para> Christopher Stray, "From Oral to Written Examinations: Cambridge, Oxford and Dublin 1700 to 1914", History of Universities 20:2 (2005), 94,95.</para></footnote>. Stray’s article elucidates the complex relationship between the mode of examination (testing), in this case oral or written, and the varying philosophies of education these modes imply, both to teacher and student. As a technology, grading both shapes and reflects many fundamental areas of educational theory and practice.
+		</para>
+	</section>	
+
+	<section id="sect-gpa-cgpa-Grade_and_Grade_Point">
+                  <title>Grade and Grade Point</title>
+                  <para>
+			Grades in courses are based on an instructor’s judgement of a student’s achievement. Semester/session grade-point average and cumulative grade-point average are calculated to represent numerically a student’s quality of performance. These averages are used to determine if a student qualifies for certain academic actions (e.g., Dean’s List, academic warning/drop, entrance to and changes in college/major, and graduation) and programs (e.g., student aid and study abroad).
+
+			<indexterm>
+                                 <primary>Judgement</primary>
+                         </indexterm>
+
+                  </para>
+
+		<section id="sect-gpa-cgpa-Grade_and_Grade_Point-Grade_Point_Average">
+                    <title>Grade Point Average</title>
+                    <para>
+			Grades and numerical grade-point equivalents have been established for varying levels of student's academic performance. These grade-point equivalents are used to determine a student’s grade-point average.
+		    </para>
+			
+			<section id="sect-gpa-cgpa-Grade_and_Grade_Point-Grade_Point_Average-Grade_Performance_and_Point">
+                      		<title>Grade Performance and Point</title>
+                      		<para>
+					<table>
+  					<title>Grade Performance table</title>
+  						<tgroup cols="4">
+    						<colspec colname="c1"/>
+    						<colspec colname="c2"/>
+						<colspec colname="c3"/>
+						<colspec colname="c4"/>
+    						
+						<thead>
+     							 <row>
+								<entry>Quality of performance</entry>
+								<entry>Description</entry>
+								<entry>Grade</entry>
+								<entry>Grade point</entry>
+      							</row>
+    						</thead>
+    						
+						<tbody>
+      							<row>
+								<entry>Outstanding</entry>
+								<entry>Exceptional achievement</entry>
+								<entry>A+</entry>
+								<entry>4.00</entry>
+      							</row>
+								
+							<row>
+                                                                 <entry>Outstanding</entry>
+                                                                 <entry>Exceptional achievement</entry>
+                                                                 <entry>A</entry>
+                                                                 <entry>3.75</entry>
+                                                        </row>
+
+                                                        <row>
+                                                                 <entry>Outstanding</entry>
+                                                                 <entry>Exceptional achievement</entry>
+                                                                 <entry>A-</entry>
+                                                                 <entry>3.50</entry>
+                                                        </row>
+
+                                                        <row>
+                                                                 <entry>Outstanding</entry>
+                                                                 <entry>Exceptional achievement</entry>
+                                                                 <entry>B+</entry>
+                                                                 <entry>3.25</entry>
+                                                        </row>
+
+                                                        <row>
+                                                                 <entry>Good</entry>
+                                                                 <entry>Extensive achievement</entry>
+                                                                 <entry>B</entry>
+                                                                 <entry>3.00</entry>
+                                                        </row>
+
+                                                        <row>
+                                                                 <entry>Good</entry>
+                                                                 <entry>Entensive achievement</entry>
+                                                                 <entry>B-</entry>
+                                                                 <entry>2.75</entry>
+                                                        </row>
+
+                                                        <row>
+                                                                 <entry>Good</entry>
+                                                                 <entry>Extensive achievement</entry>
+                                                                 <entry>C+</entry>
+                                                                 <entry>2.50</entry>
+                                                        </row>
+
+                                                        <row>
+                                                                 <entry>Satisfactory</entry>
+                                                                 <entry>Acceptable achievement</entry>
+                                                                 <entry>C</entry>
+                                                                 <entry>2.25</entry>
+                                                        </row>
+
+                                                        <row>
+                                                                 <entry>Poor</entry>
+                                                                 <entry>Miniamal achievement (The student may be seriously handicapped if he/she enrolls in a more advanced course for which this course was a prerequisite. The course may be repeated)</entry>
+                                                                 <entry>D</entry>
+                                                                 <entry>2.0</entry>
+                                                        </row>
+
+                                                        <row>
+                                                                 <entry>Failure</entry>
+                                                                 <entry>Inadequate achievement (Credit is not earned. Student aid may be adjusted; to learn more contact the Office of Student Aid. The course may be repeated)</entry>
+                                                                 <entry>F</entry>
+                                                                 <entry>Less than 2.00</entry>
+                                                        </row>
+    						</tbody>
+ 						</tgroup>
+					</table>
+				</para>	
+                       </section> <!-- End of subsubsection Grading Performance and Point -->
+		       
+		       <section id="sect-gpa-cgpa-Grade_and_Grade_Point-Grade_Point_Average-Semester_or_Session_Grade_Point_Average">		                  <title>Semester or Session Grade Point Average</title>
+				<para>
+			A student’s Grade Point Average is the weighted mean value of all grade points he/she earned by enrollment, or through credit by examination, in a semester/session of attendance at university.
+			<indexterm>
+                                 <primary>Grade Point Average</primary>
+                         </indexterm>
+
+				</para>
+			</section> <!-- End of subsubsection Semester or Session Grade Point Average-->	
+			
+			<section id="sect-gpa-cgpa-Grade_and_Grade_Point-Grade_Point_Average-Grade_Point_Average_Calculation">
+			<title>Grade Point Average Calculation</title>	
+				<para>
+				To calculate a grade point average,
+					<orderedlist>
+						<listitem><para>Determine the grade points earned in each course by multiplying course credits by the appropriate grade-point equivalent</para></listitem>
+						<listitem><para>Add the grade points earned in each course to calculate a semester total, and</para></listitem>
+						<listitem><para>Divide this sum by the number of credits taken to determine the semester/session grade point average</para></listitem>
+					</orderedlist>
+				</para>				
+					<equation>
+					<title>Gpa Calculation Method</title>
+					<!--	<alt role="tex">
+							$GPA = {Course Credits X Grade Point}{Credits Attempted}$
+						</alt> -->
+							<graphic align="center" fileref="images/gpa.jpg" scale="80"/> 
+					<!--
+					<inlinemediaobject>
+ 				 		<imageobject>
+                                  			<imagedata fileref="images/gpa.jpg" format="JPEG" scale="100" />
+                          			</imageobject>
+                  			</inlinemediaobject> -->
+					</equation>
+				<para>
+					<table>
+					<title>Example how to calculate the GPA</title>
+                                       	<tgroup cols="6">
+                                                <colspec colname="c1"/>
+                                                <colspec colname="c2"/>
+                                                <colspec colname="c3"/>
+                                                <colspec colname="c4"/>
+						<colspec colname="c5"/>
+                                                <colspec colname="c6"/>
+    
+                                                <thead>
+                                                         <row>
+                                                                <entry>Course</entry>
+                                                                <entry>Grade Achieved</entry>
+                                                                <entry>Credit Value</entry>
+                                                                <entry></entry>
+								<entry>Grade Point</entry>
+								<entry>Total Grade Point</entry>
+                                                        </row>
+                                                </thead>
+    
+                                                <tbody>
+                                                        <row>
+                                                                <entry>1</entry>
+                                                                <entry>D</entry>
+                                                                <entry>3.00</entry>
+                                                                <entry>x</entry>
+								<entry>2.00</entry>
+								<entry>= 6.00</entry>
+                                                        </row>
+   							<row>
+                                                                <entry>2</entry>
+                                                                <entry>C+</entry>
+                                                                <entry>3.00</entry>
+                                                                <entry>x</entry>
+                                                                <entry>2.50</entry>
+                                                                <entry>= 7.50</entry>
+                                                        </row>
+   							<row>
+                                                                <entry>3</entry>
+                                                                <entry>B</entry>
+                                                                <entry>1.00</entry>
+                                                                <entry>x</entry>
+                                                                <entry>3.50</entry>
+                                                                <entry>= 3.50</entry>
+                                                        </row>
+   							<row>
+                                                                <entry>4</entry>
+                                                                <entry>A-</entry>
+                                                                <entry>3.00</entry>
+                                                                <entry>x</entry>
+                                                                <entry>3.50</entry>
+                                                                <entry>= 10.50</entry>
+                                                        </row>
+  							<row>
+                                                                <entry>5</entry>
+                                                                <entry>F</entry>
+                                                                <entry>1.00</entry>
+                                                                <entry>x</entry>
+                                                                <entry>0.00</entry>
+                                                                <entry>= 0.00</entry>
+                                                        </row>
+   							<row>
+                                                                <entry></entry>
+                                                                <entry>Total Credits Attempted</entry>
+                                                                <entry>11</entry>
+                                                                <entry></entry>
+                                                                <entry>Total Grade Point</entry>
+                                                                <entry>= 27.00</entry>
+                                                        </row>
+
+						</tbody>
+					</tgroup>	
+					</table>
+				</para>
+				  <equation>
+                                        <title>Gpa Calculation Method and Result</title>     
+                                     	<graphic align="center" fileref="images/gpaResult.jpg" scale="80"/> 
+                                 </equation>
+				</section><!-- End of subsubsection Grade Point Average Calculation-->
+			</section> <!-- End of subsection of Grade Point Average-->	
+			
+			<section id="sect-gpa-cgpa-Grade_and_Grade_Point-Cumulative_Grade_Point_Average">
+                	<title>Cumulative Grade Point Average</title>
+                    	<para>
+			Cumulative Grade Point Average (CGPA) is based on the whole academic year evaluation or performance grade point. Usually, the CGPA is being calculate at the end of the entire academic year.
+			</para>
+			
+			<section id="sect-gpa-cgpa-Grade_and_Grade_Point-Cumulative_Grade_Point_Average-Grade_Performance_and_Point">
+                      		<title>Grade Performance and Point</title>
+                      		<para>
+					<table>
+  					<title>Grade Performance table</title>
+  						<tgroup cols="4">
+    						<colspec colname="c1"/>
+    						<colspec colname="c2"/>
+						<colspec colname="c3"/>
+						<colspec colname="c4"/>
+    						
+						<thead>
+     							 <row>
+								<entry>Quality of performance</entry>
+								<entry>Description</entry>
+								<entry>Grade</entry>
+								<entry>Grade point</entry>
+      							</row>
+    						</thead>
+    						
+						<tbody>
+      							<row>
+								<entry>Outstanding</entry>
+								<entry>Exceptional achievement</entry>
+								<entry>A+</entry>
+								<entry>4.00</entry>
+      							</row>
+								
+							<row>
+                                                                 <entry>Outstanding</entry>
+                                                                 <entry>Exceptional achievement</entry>
+                                                                 <entry>A</entry>
+                                                                 <entry>3.75</entry>
+                                                        </row>
+
+                                                        <row>
+                                                                 <entry>Outstanding</entry>
+                                                                 <entry>Exceptional achievement</entry>
+                                                                 <entry>A-</entry>
+                                                                 <entry>3.50</entry>
+                                                        </row>
+
+                                                        <row>
+                                                                 <entry>Outstanding</entry>
+                                                                 <entry>Exceptional achievement</entry>
+                                                                 <entry>B+</entry>
+                                                                 <entry>3.25</entry>
+                                                        </row>
+
+                                                        <row>
+                                                                 <entry>Good</entry>
+                                                                 <entry>Extensive achievement</entry>
+                                                                 <entry>B</entry>
+                                                                 <entry>3.00</entry>
+                                                        </row>
+
+                                                        <row>
+                                                                 <entry>Good</entry>
+                                                                 <entry>Entensive achievement</entry>
+                                                                 <entry>B-</entry>
+                                                                 <entry>2.75</entry>
+                                                        </row>
+
+                                                        <row>
+                                                                 <entry>Good</entry>
+                                                                 <entry>Extensive achievement</entry>
+                                                                 <entry>C+</entry>
+                                                                 <entry>2.50</entry>
+                                                        </row>
+
+                                                        <row>
+                                                                 <entry>Satisfactory</entry>
+                                                                 <entry>Acceptable achievement</entry>
+                                                                 <entry>C</entry>
+                                                                 <entry>2.25</entry>
+                                                        </row>
+
+                                                        <row>
+                                                                 <entry>Poor</entry>
+                                                                 <entry>Minimal achievement (The student may be seriously handicapped if he/she enrolls in a more advanced course for which this course was a prerequisite. The course may be repeated)</entry>
+                                                                 <entry>D</entry>
+                                                                 <entry>2.0</entry>
+                                                        </row>
+
+                                                        <row>
+                                                                 <entry>Failure</entry>
+                                                                 <entry>Inadequate achievement (Credit is not earned. Student aid may be adjusted; to learn more contact the Office of Student Aid. The course may be repeated)</entry>
+                                                                 <entry>F</entry>
+                                                                 <entry>Less than 2.00</entry>
+                                                        </row>
+    						</tbody>
+ 						</tgroup>
+					</table>
+				</para>	
+                       </section> <!-- End of subsubsection Grading Performance and Point -->
+		       
+		       <section id="sect-gpa-cgpa-Grade_and_Grade_Point-Cumulative_Grade_Point_Average-Cumulative_Grade_Point_Average">		                  <title>Cumulative Grade Point Average</title>
+				<para>
+				A student’s cumulative grade-point average is the weighted mean value of all grade points he/she earned by enrollment in university courses. Cumulative Grade Point Average (CGPA) refers to the overall GPA, which includes dividing the number of quality points earned in all courses attempted by the total degree-credit hours
+in all attempted courses.
+
+			<indexterm>
+                                 <primary>Cumulative Grade Point Average(CGPA)</primary>
+                         </indexterm>
+
+				The semester or term GPA is your Grade Point Average for that one term or semester. The Cumulative GPA is you grade point average for all attempted courses in the program.
+				</para>
+			</section> <!-- End of subsubsection Semester or Session Grade Point Average-->	
+			
+			<section id="sect-gpa-cgpa-Grade_and_Grade_Point-Cumulative_Grade_Point_Average-Cumulative_Grade_Point_Average_Calculation">
+			<title>Cumulative Grade Point Average Calculation</title>	
+				<para>
+				To calculate a cumulative grade point average, total the credit hours and then the grade points from all semesters. Divide the total grade points by the total credit hours.
+					<orderedlist>
+						<listitem><para>Determine total the credit hours from all semesters</para></listitem>
+						<listitem><para>Determine the grade points from all semesters</para></listitem>
+						<listitem><para>Divide the total grade points by the total credit hours</para></listitem>						
+					</orderedlist>
+				</para>				
+					<equation>
+					<title>CGPA Calculation Method</title>
+					<!--	<alt role="tex">
+							$GPA = {Course Credits X Grade Point}{Credits Attempted}$
+						</alt> -->
+							<graphic align="center" fileref="images/cgpa.jpg" scale="80"/> 
+					<!--
+					<inlinemediaobject>
+ 				 		<imageobject>
+                                  			<imagedata fileref="images/gpa.jpg" format="JPEG" scale="100" />
+                          			</imageobject>
+                  			</inlinemediaobject> -->
+					</equation>
+				<para>
+					<table>
+					<title>Example how to calculate the CGPA</title>
+                                       	<tgroup cols="6">
+                                                <colspec colname="c1"/>
+                                                <colspec colname="c2"/>
+                                                <colspec colname="c3"/>
+                                                <colspec colname="c4"/>
+						<colspec colname="c5"/>
+                                                <colspec colname="c6"/>
+    
+                                                <thead>
+                                                         <row>
+                                                                <entry>Course</entry>
+                                                                <entry>Grade Achieved</entry>
+                                                                <entry>Credit Value</entry>
+                                                                <entry></entry>
+								<entry>Grade Point</entry>
+								<entry>Total Grade Point</entry>
+                                                        </row>
+                                                </thead>
+    
+                                                <tbody>
+                                                        <row>
+                                                                <entry>1</entry>
+                                                                <entry>D</entry>
+                                                                <entry>3.00</entry>
+                                                                <entry>x</entry>
+								<entry>2.00</entry>
+								<entry>= 6.00</entry>
+                                                        </row>
+   							<row>
+                                                                <entry>2</entry>
+                                                                <entry>C+</entry>
+                                                                <entry>3.00</entry>
+                                                                <entry>x</entry>
+                                                                <entry>2.50</entry>
+                                                                <entry>= 7.50</entry>
+                                                        </row>
+   							<row>
+                                                                <entry>3</entry>
+                                                                <entry>B</entry>
+                                                                <entry>1.00</entry>
+                                                                <entry>x</entry>
+                                                                <entry>3.50</entry>
+                                                                <entry>= 3.50</entry>
+                                                        </row>
+   							<row>
+                                                                <entry>4</entry>
+                                                                <entry>A-</entry>
+                                                                <entry>3.00</entry>
+                                                                <entry>x</entry>
+                                                                <entry>3.50</entry>
+                                                                <entry>= 10.50</entry>
+                                                        </row>
+  							<row>
+                                                                <entry>5</entry>
+                                                                <entry>F</entry>
+                                                                <entry>1.00</entry>
+                                                                <entry>x</entry>
+                                                                <entry>0.00</entry>
+                                                                <entry>= 0.00</entry>
+                                                        </row>
+   							<row>
+                                                                <entry></entry>
+                                                                <entry>Total Credits Attempted</entry>
+                                                                <entry>11</entry>
+                                                                <entry></entry>
+                                                                <entry>Total Grade Point</entry>
+                                                                <entry>= 27.00</entry>
+                                                        </row>
+
+						</tbody>
+					</tgroup>	
+					</table>
+				</para>
+				  <equation>
+                                        <title>CGPA Calculation Method and Result</title>     
+                                     	<graphic align="center" fileref="images/cgpaResult.jpg" scale="80"/> 
+                                 </equation>
+				</section><!-- End of subsubsection Cumulative Grade Point Average Calculation-->
+			</section> <!-- End of subsection of Cumulative Grade Point Average-->	
+		</section> <!-- End of section Grade and Grade Point-->
+		
+		<section id="chap-gpa-cgpa-Aim_of_the_GPA_and_CGPA_Calculator">
+
+		<title>Aim of the GPA and CGPA Calculator</title>	
+			<para>
+				The GPA and CGPA calculator is an academic tool to calculate the student performance either at university or the official usage. Therefore, the following aim has been estimated based on the usage of the calculator:
+				<orderedlist>
+					<listitem><para>To calculate the semester grade point</para></listitem>
+					<listitem><para>To calculate the performance of total academic year</para></listitem>
+					<listitem><para>The student can know how hard s/he has to work hard by calculating the possible grade</para></listitem>
+					<listitem><para>To provide the desktop based personal program</para></listitem>
+					<listitem><para>To use in the corporate environment</para></listitem>						
+				</orderedlist>	
+			</para>
+		</section> <!-- End of section Aim of the GPA and CGPA Calculator-->	
+		
+		<section id="chap-gpa-cgpa-Grading_System_of_Bangladesh">
+		<title>Grading System of Bangladesh</title>
+			<para>
+				The grading system in Bangladesh<footnote><para>http://www.ugc.gov.bd</para></footnote> is controlled by the University Grant Commission(UGC). The grading point measurement is universal for all the public and private universities<footnote><para>http://en.wikipedia.org/wiki/List_of_universities_in_Bangladesh</para></footnote> in Bangladesh. The following table is the grade point measurement with the minor modification (the user of the program can avoid the modification portion if s/he dislikes the fragment of the program):	
+
+			<indexterm>
+                                 <primary>Grading System Bangladesh</primary>
+                         </indexterm>
+
+		<table>
+		<title>Grading system of Bangladesh</title>
+                    <tgroup cols="4">
+                    <colspec colname="c1"/>
+                    <colspec colname="c2"/>
+                    <colspec colname="c3"/>
+                    <colspec colname="c4"/>
+			
+			<thead>
+			<row>
+                                <entry>Marks Scored</entry>
+                                <entry>Letter Grade</entry>
+                                <entry>Grade Point</entry>
+                                <entry>Performance</entry>
+                      	</row>
+                        </thead>
+    
+                        <tbody>
+			<row>
+                                <entry>80 - 100</entry>
+                                <entry>A+</entry>
+                                <entry>4.00</entry>
+                                <entry>Outstanding</entry>
+			</row> 
+			<row>
+                                <entry>75 - &lt; 80</entry>
+                                <entry>A</entry>
+                                <entry>3.75</entry>
+                                <entry>Outstanding</entry>
+			</row>   						
+			<row>
+                                <entry>70 - &lt; 75</entry>
+                                <entry>A-</entry>
+                                <entry>3.75</entry>
+                                <entry>Outstanding</entry>
+			</row>   
+			<row>
+                                <entry>65 - &lt; 70</entry>
+                                <entry>B+</entry>
+                                <entry>3.75</entry>
+                                <entry>Outstanding</entry>
+			</row>   
+							
+			<row>
+                                <entry>60 - &lt; 65</entry>
+                                <entry>B</entry>
+                                <entry>3.00</entry>
+                                <entry>Good</entry>
+			</row>   
+			<row>
+                                <entry>55 - &lt; 60</entry>
+                                <entry>B-</entry>
+                                <entry>2.75</entry>
+                                <entry>Good</entry>
+			</row>   
+			<row>
+                                <entry>50 - &lt; 55</entry>
+                                <entry>C+</entry>
+                                <entry>2.50</entry>
+                                <entry>Good</entry>
+			</row>   
+							
+			<row>
+                                <entry>45 - &lt; 55</entry>
+                                <entry>C+</entry>
+                                <entry>2.50</entry>
+                                <entry>Satisfactory</entry>
+			</row>
+							
+			<row>
+                                <entry>40 - &lt; 45</entry>
+                                <entry>D</entry>
+                                <entry>2.00</entry>
+                                <entry>Poor</entry>
+			</row>
+							
+			<row>
+                                <entry>0 - &lt; 40</entry>
+                                <entry>F</entry>
+                                <entry>0.00</entry>
+                                <entry>Failure</entry>
+			</row>
+							
+			</tbody>
+			</tgroup>	
+			</table>
+			</para>
+		</section> <!-- End of section Grading System of Bangladesh-->	
+</chapter>

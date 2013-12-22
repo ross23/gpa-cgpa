@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE bookinfo PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "gpa-cgpa.ent">
+%BOOK_ENTITIES;
+]>
+<bookinfo id="book-gpa-cgpa-gpa_cgpa">
+	<title>gpa-cgpa</title>
+	<subtitle>To calculate the Grade Point</subtitle>
+	<productname>User Documentation</productname>
+	<productnumber></productnumber>
+	<edition>1.1</edition>
+	<pubsnumber></pubsnumber>
+	<abstract>
+		<para>
+			The User Documentation serves the purpose to guide the user's of GPA and CGPA calculator. GPA refers to the Grade Point Average where the CGPA is Cumulative Grade Point Average. Through the guide, the user shall be able to learn how to use the program or in some scenario the desktop software concurrently.
+		</para>
+	</abstract>
+	<corpauthor>
+		<inlinemediaobject>
+			<imageobject>
+			<!--	<imagedata fileref="images/11.jpg" format="JPEG" contentwidth="2in" contentdepth="2in">  -->
+				<imagedata fileref="images/11.png" format="PNG" scale="30" />
+			</imageobject>
+		</inlinemediaobject>
+	</corpauthor>
+	<xi:include href="Common_Content/Legal_Notice.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	<xi:include href="Author_Group.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+</bookinfo>
+

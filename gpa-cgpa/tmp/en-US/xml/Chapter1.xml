@@ -1,0 +1,472 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "gpa-cgpa.ent">
+%BOOK_ENTITIES;
+]>
+<chapter id="chap-gpa-cgpa-User_Guide" lang="en-US">
+	<title>User Guide</title>
+	 <para>
+		The DocBook is about GPA and CGPA desktop software. This chapter is the User Guide for using Gpa and Cgpa calculator.
+	</para>
+	 <section id="sect-gpa-cgpa-User_Guide-Install_the_GpaCgpa_Program">
+		<title>Install the GpaCgpa Program</title>
+		 <para>
+			To measure the Grade Point Average or Cumulative Grade Point Average program, the end user need to download the program<footnote>
+			<para>
+				A Computer program, or just a program, is a sequence of instructions, written to perform a specified task with a computer.
+			</para>
+			</footnote> from the web link. The process to download the program is simple and the user requires few knowledge how to use the website using the web browser. It is recommended to follow the procedure given: 
+			<indexterm>
+				<primary>Computer program</primary>
+
+			</indexterm>
+			 <simplelist>
+				<member><literal>Step 1:</literal> Open any web browser of your choice (Firefox, Chrome, Safari, Internet Explorer)</member>
+				 <member><literal>Step 2:</literal> Go to the address bar and type "http://sourceforge.net/projects/cgpagpa/"</member>
+				 <member><literal>Step 3:</literal> Click on the Download Button</member>
+				 <member><literal>Step 4:</literal> Soon after downloading the CgpaGpa.zip, extract the file</member>
+
+			</simplelist>
+
+		</para>
+		 <para>
+			Check that you have Java Virtual Machine(JVM) installed on your computer: 
+			<orderedlist>
+				<listitem>
+					<para>
+						Open the Command Prompt (CMD)
+					</para>
+				</listitem>
+				 <listitem>
+					<para>
+						Type 'java -jar GpaCgpa.jar'
+					</para>
+				</listitem>
+				 <listitem>
+					<para>
+						The program will launch soon after providing the above command in CMD
+					</para>
+				</listitem>
+
+			</orderedlist>
+
+		</para>
+		 <indexterm>
+			<primary>Command Prompt</primary>
+
+		</indexterm>
+		 <note>
+			<para>
+				Start Menu &gt; Programs &gt; Accessories &gt; Command Prompt
+			</para>
+
+		</note>
+		 <warning>
+			<para>
+				<command>java -jar GpaCgpa.jar</command>
+			</para>
+
+		</warning>
+		 <important>
+			<para>
+				If there is no JVM installed in the computer, please visit the website to know more about how to install the necessary Java Virtual Machine and other programs: 
+				<orderedlist>
+					<listitem>
+						<para>
+							<literal>Know about JVM:</literal> http://docs.oracle.com/javase/specs/jvms/se7/html/
+						</para>
+					</listitem>
+					 <listitem>
+						<para>
+							<literal>Download the JVM and install the software in your machine:</literal> https://java.com/en/download/index.jsp
+						</para>
+					</listitem>
+					 <listitem>
+						<para>
+							Open the <command>Command Prompt</command> from the Start Menu; see the notification below..
+						</para>
+					</listitem>
+					 <listitem>
+						<para>
+							Start typing the command <command>java -jar GpaCgpa.jar</command> at the command prompt
+						</para>
+					</listitem>
+					 <listitem>
+						<para>
+							The Gpa and Cgpa Calculator will launch soon after providing the above command in CMD successfully
+						</para>
+					</listitem>
+
+				</orderedlist>
+				 <important>
+					<figure>
+						<title>Java version and command to run the program</title>
+						 <mediaobject>
+							<imageobject condition="web">
+								<imagedata fileref="images/8.jpg" format="JPG" scale="99" width="444" />
+							</imageobject>
+
+						</mediaobject>
+
+					</figure>
+
+				</important>
+				 <note>
+					<para>
+						Start Menu &gt; All Programs &gt; Accessories &gt; Command Prompt
+					</para>
+
+				</note>
+				 <warning>
+					<para>
+						<command>java -jar GpaCgpa.jar</command>
+					</para>
+
+				</warning>
+
+			</para>
+
+		</important>
+
+	</section>
+	
+	 <!-- End of GPA and CGPA program  --> <section id="sect-gpa-cgpa-User_Guide-Landing_Interface">
+		<title>Landing Interface</title>
+		 <section id="sect-gpa-cgpa-User_Guide-Landing_Interface-Description">
+			<title>Description</title>
+			 <para>
+				The Landing Interface is displays the welcoming information of the GPA and CGPA calculation. There are two options is the interface: 
+				<indexterm>
+					<primary>Landing Interface</primary>
+
+				</indexterm>
+				 <orderedlist>
+					<listitem>
+						<para>
+							<literal>Calculator:</literal>To calculate the GPA or CGPA
+						</para>
+					</listitem>
+					 <listitem>
+						<para>
+							<literal>Exit:</literal>To end the Program fragment
+						</para>
+					</listitem>
+
+				</orderedlist>
+				 <indexterm>
+					<primary>Program fragment</primary>
+
+				</indexterm>
+
+			</para>
+
+		</section>
+		
+		 <!-- End of Landing Interface Description  --> <section id="sect-gpa-cgpa-User_Guide-Landing_Interface-How_to_use_the_landing_interface">
+			<title>How to use the landing interface</title>
+			 <para>
+				<simplelist>
+					<member><literal>Step 1: To Start the Calculation: </literal>Click on the Calculator button to start calculation the Grade Point Average (GPA) or Cumulative Grade Point Average (CGPA)</member>
+					 <member><literal>Step 2: To Exit from the Program: </literal> Hit the Exit button</member>
+
+				</simplelist>
+
+			</para>
+
+		</section>
+		
+		 <!-- End of How to use the Landing Interface  --> <section id="sect-gpa-cgpa-User_Guide-Landing_Interface-Screen_of_the_Landing_Interface">
+			<title>Screen of the Landing Interface</title>
+			 <para>
+				<figure>
+					<title>Welcoming interface of GPA CGPA calculator</title>
+					 <mediaobject>
+						<imageobject condition="web">
+							<imagedata fileref="images/1.jpg" format="JPG" scale="99" width="444" />
+						</imageobject>
+
+					</mediaobject>
+
+				</figure>
+
+			</para>
+
+		</section>
+		
+		 <!-- End of Screen of the Landing Interface -->
+	</section>
+	
+	 <!--  End of Landing Interface --> <section id="sect-gpa-cgpa-User_Guide-Choice_Interface">
+		<title>Choice Interface</title>
+		 <section id="sect-gpa-cgpa-User_Guide-Choice_Interface-Description">
+			<title>Description</title>
+			 <para>
+				The Choice interface offers the end-user to choose the following options: 
+				<orderedlist>
+					<listitem>
+						<para>
+							To calculate Cumulative Grade Point Average (CGPA)
+						</para>
+					</listitem>
+					 <listitem>
+						<para>
+							To calculate Grade Point Average(GPA)
+						</para>
+					</listitem>
+					 <listitem>
+						<para>
+							To back to the landing interface
+						</para>
+					</listitem>
+					 <listitem>
+						<para>
+							To exit from the program
+						</para>
+					</listitem>
+
+				</orderedlist>
+
+			</para>
+
+		</section>
+		
+		 <!-- End of Choice Interface Description  --> <section id="sect-gpa-cgpa-User_Guide-Choice_Interface-How_to_use_the_Choice_Menu">
+			<title>How to use the Choice Menu</title>
+			 <para>
+				<simplelist>
+					<member><literal>Step 1: </literal>To Calculate CGPA- Click the CGPA button</member>
+					 <member> <literal>Step 2: </literal>To Calculate GPA- Click the GPA button</member>
+					 <member> <literal>Step 3: </literal>To back to the landing interface- Click the QUIT button</member>
+					 <member> <literal>Step 4: </literal>To terminate the program- Click the EXIT FROM THE PROGRAM button</member>
+
+				</simplelist>
+
+			</para>
+
+		</section>
+		
+		 <!-- End of How to use the Choice Menu  --> <section id="sect-gpa-cgpa-User_Guide-Choice_Interface-Screen_of_the_Choice_Interface">
+			<title>Screen of the Choice Interface</title>
+			 <para>
+				<figure>
+					<title>End user Choice menu of GPA CGPA calculator</title>
+					 <mediaobject>
+						<imageobject condition="web">
+							<imagedata fileref="images/2.jpg" format="JPG" scale="99" width="444" />
+						</imageobject>
+
+					</mediaobject>
+
+				</figure>
+
+			</para>
+
+		</section>
+		
+		 <!-- End of Screen of the Choice Interface -->
+	</section>
+	
+	 <!--  End of Choice Interface --> <section id="sect-gpa-cgpa-User_Guide-GPA">
+		<title>GPA</title>
+		 <section id="sect-gpa-cgpa-User_Guide-GPA-Description">
+			<title>Description</title>
+			 <para>
+				Grade Point Average(GPA) is the calculation which is used at the end of a semester<footnote>
+				<para>
+					A semester is an academic term. A semester system divides the academic year into two terms, which are usually 14–20 weeks each.
+				</para>
+				</footnote>. The GPA is the key to calculate the student performance which is evaluated by the teacher or authorized person. There are two input areas where the end-user or the student requires to enter the data: 
+				<indexterm>
+					<primary>GPA</primary>
+
+				</indexterm>
+				 <indexterm>
+					<primary>Semester</primary>
+
+				</indexterm>
+				 <orderedlist>
+					<listitem>
+						<para>
+							Credit Hours<footnote>
+							<para>
+								A course credit (often credit hour, or just credit or unit) is a unit that gives weighting to the value, level or time requirements of an academic course taken at a school or other educational institution
+							</para>
+							</footnote>
+						</para>
+					</listitem>
+					 <listitem>
+						<para>
+							Grade Achieved
+						</para>
+					</listitem>
+
+				</orderedlist>
+				 <indexterm>
+					<primary>Credit Hours</primary>
+
+				</indexterm>
+
+			</para>
+
+		</section>
+		
+		 <!-- End of GPA Description  --> <section id="sect-gpa-cgpa-User_Guide-GPA-How_to_use_the_GPA">
+			<title>How to use the GPA</title>
+			 <para>
+				<simplelist>
+					<member><literal>Step 1: </literal>Enter the data in the Credit Hours and the Grade Achieved</member>
+					 <member><literal>Step 2: </literal>Click the CALCULATE GPA button to calculate and to view the GPA, total credits, and performance status [Figure 2.5].</member>
+					 <member><literal>Step 3: </literal>Click the Reset Data button to empty the Credit Hours and the Grade Achieved to clear the data</member>
+					 <member><literal>Step 4: </literal>Click the Back to main button to return to the main interface [Figure 2.3]</member>
+
+				</simplelist>
+				 <warning>
+					<para>
+						Do not leave the Credit Hours and the Grade Achieved empty; Please enter ZERO (0) in the Credit Hours and enter small or capital alphabet X in the Grade Achieved box.
+					</para>
+
+				</warning>
+
+			</para>
+
+		</section>
+		
+		 <!-- End of How to use the GPA --> <section id="sect-gpa-cgpa-User_Guide-GPA-Screen_of_the_GPA_Interface">
+			<title>Screen of the GPA Interface</title>
+			 <para>
+				<figure>
+					<title>Grade Point Average (CGPA) calculation interface</title>
+					 <mediaobject>
+						<imageobject condition="web">
+							<imagedata fileref="images/3.jpg" format="JPG" scale="99" width="444" />
+						</imageobject>
+
+					</mediaobject>
+
+				</figure>
+				 <figure>
+					<title>Grade Point Average calculation with sample input</title>
+					 <mediaobject>
+						<imageobject condition="web">
+							<imagedata fileref="images/4.jpg" format="JPG" scale="99" width="444" />
+						</imageobject>
+
+					</mediaobject>
+
+				</figure>
+
+			</para>
+
+		</section>
+		
+		 <!-- End of Screen of the Landing Interface -->
+	</section>
+	
+	 <!--  End of GPA --> <section id="sect-gpa-cgpa-User_Guide-CGPA">
+		<title>CGPA</title>
+		 <section id="sect-gpa-cgpa-User_Guide-CGPA-Description">
+			<title>Description</title>
+			 <para>
+				The Cumulative Grade Point Average (CGPA) is the overall GPA of the entire academic year<footnote>
+				<para>
+					Academic year - the period of time each year when the school is open and people are studying, http://www.thefreedictionary.com/academic+year
+				</para>
+				</footnote> at the university. The CGPA is considered as the final performance report for a student. There are four input areas where the end-user or the student requires to enter the data: 
+				<indexterm>
+					<primary>Academic year</primary>
+
+				</indexterm>
+				 <orderedlist>
+					<listitem>
+						<para>
+							Previous total credits completed
+						</para>
+					</listitem>
+					 <listitem>
+						<para>
+							Previous CGPA, not GPA
+						</para>
+					</listitem>
+					 <listitem>
+						<para>
+							Total credits taken in this semester
+						</para>
+					</listitem>
+					 <listitem>
+						<para>
+							GPA achieved (Current Semester)
+						</para>
+					</listitem>
+
+				</orderedlist>
+
+			</para>
+
+		</section>
+		
+		 <!-- End of CGPA Description  --> <section id="sect-gpa-cgpa-User_Guide-CGPA-Landing_Interface-How_to_use_the_CGPA">
+			<title>How to use the CGPA</title>
+			 <para>
+				<simplelist>
+					<member><literal>Step 1: </literal>Enter the data [Figure 2.6]</member>
+					 <member><literal>Step 2: </literal>Hit the find CGPA button to calculate and to view the CGPA, total credits, and performance status [Figure 2.7]</member>
+					 <member><literal>Step 3: </literal>Click the Reset Data button to empty the fields</member>
+					 <member><literal>Step 4: </literal>Click the Back to main button to return to the main interface [Figure 2.3]</member>
+
+				</simplelist>
+
+			</para>
+
+		</section>
+		
+		 <!-- End of How to use the  CGPA  --> <section id="sect-gpa-cgpa-User_Guide-CGPA-Landing_Interface-Screen_of_the_CGPA_Interface">
+			<title>Screen of the CGPA Interface</title>
+			 <para>
+				<figure>
+					<title>Cumulative Grade Point Average (CGPA) calculation interface</title>
+					 <mediaobject>
+						<imageobject condition="web">
+							<imagedata fileref="images/5.jpg" format="JPG" scale="99" width="444" />
+						</imageobject>
+
+					</mediaobject>
+
+				</figure>
+				 <figure>
+					<title>Cumulative Grade Point Average calculation with sample input</title>
+					 <mediaobject>
+						<imageobject condition="web">
+							<imagedata fileref="images/6.jpg" format="JPG" scale="99" width="444" />
+						</imageobject>
+
+					</mediaobject>
+
+				</figure>
+
+			</para>
+
+		</section>
+		
+		 <!-- End of Screen of the CGPA Interface -->
+	</section>
+	
+	 <!--  End of CGPA --> <section id="sect-gpa-cgpa-User_Guide-Debug_Information">
+		<title>Debug Information</title>
+		 <para>
+			Software Bugs<footnote>
+			<para>
+				A software bug is an error, flaw, failure, or fault in a computer program or system that produces an incorrect or unexpected result, or causes it to behave in unintended ways. Most bugs arise from mistakes and errors made by people in either a program’s source code or its design, or in frameworks and operating systems used by such programs, and a few are caused by compilers producing incorrect code. A program that contains a large number of bugs, and/or bugs that seriously interfere with its functionality, is said to be buggy. Reports detailing bugs in a program are commonly known as bug reports, defect reports, fault reports, problem reports, trouble reports, change requests, and so forth
+			</para>
+			</footnote> are everywhere. Please send the debug information to us. 
+			<indexterm>
+				<primary>Software Bug</primary>
+
+			</indexterm>
+
+		</para>
+
+	</section>
+	
+	 <!-- End of Debug information -->
+</chapter>
+
